@@ -42,8 +42,8 @@ Siga os passos abaixo para levantar todo o ambiente na sua máquina local.
 
 1. Clone o repositório
 
-git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
-cd SEU-REPOSITORIO
+git clone [(https://github.com/devdiony/docker-fullstack-cadastro-aluno.git)](https://github.com/devdiony/docker-fullstack-cadastro-aluno.git)]
+cd docker/fullstack/cadastro-aluno
 
 
 2. Configure as variáveis de ambiente
