@@ -31,6 +31,8 @@ services:
     # Volumes montam o código-fonte do host para dentro do contêiner, permitindo o hot-reload.
     volumes:
       - ./frontend:/app
+    environment:
+      - VITE_WATCHER_USE_POLLING=true # Mantém essa linha
       # Este volume anônimo evita que o node_modules do host sobrescreva o do contêiner.
       - /app/node_modules
     networks:
